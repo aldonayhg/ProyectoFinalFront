@@ -1,0 +1,26 @@
+/* Estilo para fechas disponibles */
+.react-calendar .disponible {
+  background-color: #4caf50; /* Verde */
+  color: white;
+  font-weight: bold;
+}
+
+/* Estilo para hover en fechas disponibles */
+.react-calendar .disponible:hover {
+  background-color: #388e3c; /* Verde oscuro */
+  cursor: pointer;
+}
+
+/* Deshabilitar fechas no disponibles */
+.react-calendar .react-calendar__tile--disabled {
+  background-color: #f0f0f0;
+  color: #ccc;
+  cursor: not-allowed;
+}
+
+.react-calendar .tachada {
+  background-color: #d6ef5b; /* Verde */
+  color: white;
+  font-weight: bold;
+  text-decoration: line-through; 
+}
